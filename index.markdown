@@ -4,3 +4,7 @@
 
 layout: home
 ---
+
+{% include header.html %}
+{% include intro.html %}
+{% include contact-info.html %}
