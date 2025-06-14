@@ -23,10 +23,10 @@ function About() {
                     <div className="flex items-start gap-4">
                     <Briefcase className="w-6 h-6 mt-1 text-blue-400" />
                     <div>
-                        <p><span className="font-semibold">Occupation:</span> Software Engineer</p>
-                        <p><span className="font-semibold">At:</span> JPMorgan Chase</p>
-                        <p><span className="font-semibold">Based in:</span> Plano, TX</p>
-                        <p><span className="font-semibold">Since:</span> August 2023</p>
+                        <p><span>Occupation:</span> <span className="font-semibold">Software Engineer</span></p>
+                        <p><span>At:</span> <span className="font-semibold">JPMorgan Chase</span></p>
+                        <p><span>Based in:</span> <span className="font-semibold">Plano, TX</span></p>
+                        <p><span>Since:</span> <span className="font-semibold">August 2023</span></p>
                     </div>
                     </div>
 
@@ -34,9 +34,9 @@ function About() {
                     <div className="flex items-start gap-4">
                     <GraduationCap className="w-6 h-6 mt-1 text-green-400" />
                     <div>
-                        <p><span className="font-semibold">Graduated from:</span> Southern Methodist University (SMU)</p>
-                        <p><span className="font-semibold">In:</span> May 2023</p>
-                        <p><span className="font-semibold">With majors in:</span> Computer Science, Mathematics</p>
+                        <p><span>Graduated from:</span> <span className="font-semibold">Southern Methodist University (SMU)</span></p>
+                        <p><span>In:</span> <span className="font-semibold">May 2023</span></p>
+                        <p><span>With majors in:</span> <span className="font-semibold">Computer Science, Mathematics</span></p>
                     </div>
                     </div>
 
@@ -44,8 +44,8 @@ function About() {
                     <div className="flex items-start gap-4">
                     <Heart className="w-6 h-6 mt-1 text-red-400" />
                     <div>
-                        <p><span className="font-semibold">I love:</span> coding, drawing, reading</p>
-                        <p><span className="font-semibold">And:</span> pickleball, running, and gaming</p>
+                        <p><span>I love:</span> <span className="font-semibold">coding, drawing, reading</span></p>
+                        <p><span>And:</span> <span className="font-semibold">pickleball, running, and gaming</span></p>
                     </div>
                     </div>
 
@@ -53,9 +53,9 @@ function About() {
                     <div className="flex items-start gap-4">
                     <FileText className="w-6 h-6 mt-1 text-yellow-400" />
                     <div>
-                        <p><span className="font-semibold">I was a:</span> Hackathon director, organizer, and participant</p>
-                        <p><span className="font-semibold">And a:</span> SMU Mustang Band member</p>
-                        <p><span className="font-semibold">And an:</span> Officer of Theta Tau (professional engineering fraternity)</p>
+                        <p><span>I was a:</span> <span className="font-semibold">Hackathon director, organizer, and participant</span></p>
+                        <p><span>And a:</span> <span className="font-semibold">SMU Mustang Band member</span></p>
+                        <p><span>And an:</span> <span className="font-semibold">Officer of Theta Tau (professional engineering fraternity)</span></p>
                     </div>
                     </div>
 
@@ -63,8 +63,8 @@ function About() {
                     <div className="flex items-start gap-4">
                     <CheckSquare className="w-6 h-6 mt-1 text-purple-400" />
                     <div>
-                        <p><span className="font-semibold">My goals:</span> Spirituality, career success</p>
-                        <p><span className="font-semibold">And:</span> being a creator, not a consumer</p>
+                        <p><span>My goals:</span> <span className="font-semibold">Spirituality, career success</span></p>
+                        <p><span>And:</span> <span className="font-semibold">being a creator, not a consumer</span></p>
                     </div>
                     </div>
                 </div>
@@ -79,13 +79,13 @@ function About() {
                     {/* Social Icons */}
                     <div className="flex gap-4 mb-6 justify-center">
                     <div className="bg-white rounded-lg p-3 flex gap-3">
-                        <SiX className="w-5 h-5 text-gray-800 hover:text-gray-600" />
-                        <SiFacebook className="w-5 h-5 text-gray-800" />
-                        <SiInstagram className="w-5 h-5 text-gray-800" />
-                        <span className="w-5 h-5 text-gray-800 font-bold text-sm flex items-center justify-center">M</span>
-                        <SiGithub className="w-5 h-5 text-gray-800" />
-                        <SiLinkedin className="w-5 h-5 text-gray-800" />
-                        <SiMinutemailer className="w-5 h-5 text-gray-800" />
+                        <a href="https://github.com/mplennon617" target="_blank"><SiGithub className="w-5 h-5 text-gray-800 hover:text-gray-600 transform hover:-translate-y-1 transition-transform duration-300"></SiGithub></a>
+                        <a href="https://www.linkedin.com/in/michael-p-lennon/" target="_blank"><SiLinkedin className="w-5 h-5 text-gray-800 hover:text-gray-600 transform hover:-translate-y-1 transition-transform duration-300"></SiLinkedin></a>
+                        <a href="https://medium.com/@mplennon617_5942" target="_blank"><span className="w-5 h-5 text-gray-800 hover:text-gray-600 font-bold text-sm flex items-center justify-center transform hover:-translate-y-1 transition-transform duration-300">M</span></a>
+                        <a href="https://twitter.com/mplennon617" target="_blank"><SiX className="w-5 h-5 text-gray-800 hover:text-gray-600 transform hover:-translate-y-1 transition-transform duration-300"></SiX></a>
+                        {/* <a href="https://github.com/mplennon617" target="_blank"><SiFacebook className="w-5 h-5 text-gray-800 hover:text-gray-600 transform hover:-translate-y-1 transition-transform duration-300"></SiFacebook></a> */}
+                        <a href="https://www.instagram.com/mplennon617/" target="_blank"><SiInstagram className="w-5 h-5 text-gray-800 hover:text-gray-600 transform hover:-translate-y-1 transition-transform duration-300"></SiInstagram></a>
+                        <a href="mailto:mplennon617@gmail.com" target="_blank"><SiMinutemailer className="w-5 h-5 text-gray-800 hover:text-gray-600 transform hover:-translate-y-1 transition-transform duration-300"></SiMinutemailer></a>
                     </div>
                     </div>
 
