@@ -11,7 +11,7 @@ function About() {
             </div>
 
             {/* Main Content Grid */}
-            <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
+            <div className="max-w-7xl mx-auto px-8 grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
                 {/* Fast Facts Card */}
                 <div className="bg-gray-800/50 backdrop-blur-sm rounded-2xl p-8 border border-gray-700/50">
                 <h2 className="text-3xl font-bold mb-8 flex items-center gap-3">
