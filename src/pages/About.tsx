@@ -137,11 +137,11 @@ function About() {
 
             {/* Bottom Navigation */}
             <div className="flex justify-center gap-6">
-                <Link to="/blogs" className="border border-gray-400 text-white px-8 py-3 rounded-full hover:bg-white hover:text-black transition-all duration-300 font-medium">
-                Blogs
-                </Link>
                 <Link to="/portfolio" className="border border-gray-400 text-white px-8 py-3 rounded-full hover:bg-white hover:text-black transition-all duration-300 font-medium">
                 Portfolio
+                </Link>
+                <Link to="/blogs" className="border border-gray-400 text-white px-8 py-3 rounded-full hover:bg-white hover:text-black transition-all duration-300 font-medium">
+                Blogs
                 </Link>
                 <Link to="/designs" className="border border-gray-400 text-white px-8 py-3 rounded-full hover:bg-white hover:text-black transition-all duration-300 font-medium">
                 Designs

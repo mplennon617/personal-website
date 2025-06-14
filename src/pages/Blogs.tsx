@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { GraduationCap, ArrowUp, ChevronUp, Cpu, ArrowUpToLine } from 'lucide-react';
+import { GraduationCap, Cpu, ArrowUpToLine } from 'lucide-react';
 
 function Blogs() {
     const [visibleBlogs, setVisibleBlogs] = useState(4);
