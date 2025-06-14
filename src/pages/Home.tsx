@@ -31,8 +31,9 @@ function Home() {
                         {/* Placeholder for profile image or other content */}
                             <div className="w-full h-full rounded-2xl bg-gradient-to-br from-gray-200 to-gray-300 flex items-center justify-center">
                                 <div className="text-gray-600 text-center">
-                                    <div className="w-16 h-16 bg-gray-400 rounded-full mx-auto mb-4"></div>
-                                    <p className="text-sm">Profile Image</p>
+                                    {/* <div className="w-16 h-16 bg-gray-400 rounded-full mx-auto mb-4"></div>
+                                    <p className="text-sm">Profile Image</p> */}
+                                    <img src="avatar2025-1.png" alt="Profile" className="w-64 h-64 rounded-full mx-auto mb-4" />
                                 </div>
                             </div>
                         </div>
