@@ -14,7 +14,11 @@ function Home() {
                             </h1>
                             
                             <p className="text-lg leading-relaxed max-w-lg">                    
-                                I'm a <span className="bg-gradient-to-br bg-clip-text font-bold text-transparent from-purple-300 to-blue-300">software engineer</span> dedicated to transforming the world through innovative, practical, and responsible solutions. Like many of my other passions, I treat software development as an <b className="bg-gradient-to-br bg-clip-text font-bold text-transparent from-purple-300 to-blue-300">art form</b> - a tool to push the boundaries of what's possible.
+                                I'm a 
+                                <span className="bg-gradient-to-br bg-clip-text font-bold text-transparent from-purple-300 to-blue-300">software engineer</span> 
+                                dedicated to transforming the world through innovative, practical, and responsible solutions. Like many of my other passions, I treat software development as an 
+                                <b className="bg-gradient-to-br bg-clip-text font-bold text-transparent from-purple-300 to-blue-300">art form</b>
+                                 - a tool to push the boundaries of what's possible.
                             </p>
                             <p className="text-lg leading-relaxed max-w-lg pt-4 front">It's great to meet you.</p>
 
@@ -33,7 +37,7 @@ function Home() {
                                 <div className="text-gray-600 text-center">
                                     {/* <div className="w-16 h-16 bg-gray-400 rounded-full mx-auto mb-4"></div>
                                     <p className="text-sm">Profile Image</p> */}
-                                    <img src="avatar2025-1.png" alt="Profile" className="w-64 h-64 rounded-full mx-auto mb-4" />
+                                    <img src="/images/avatar2025-1.png" alt="Profile" className="w-64 h-64 rounded-full mx-auto mb-4" />
                                 </div>
                             </div>
                         </div>

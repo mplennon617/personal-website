@@ -1,5 +1,5 @@
 import { Briefcase, CheckSquare, FileText, Globe, GraduationCap, Heart, Mail, MapPin } from 'lucide-react';
-import { SiFacebook, SiGithub, SiInstagram, SiLinkedin, SiMinutemailer, SiX } from "react-icons/si";
+import { SiGithub, SiInstagram, SiLinkedin, SiMinutemailer, SiX } from "react-icons/si";
 import { Link } from "react-router-dom";
 
 function About() {

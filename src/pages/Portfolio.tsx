@@ -6,40 +6,44 @@ function Portfolio() {
     const projects = [
     {
       id: 1,
-      title: "Ticket to Ride Replica",
-      date: "Spring 2019",
-      tech: "Java",
-      description: "A complete and working replica of the Ticket to Ride Board Game.",
-      gitUrl: "https://github.com/mplennon617/TicketToRide",
-      icon: <Code className="w-5 h-5 text-purple-400" />
-    },
-    {
-      id: 2,
-      title: "RapidRX",
-      date: "Spring 2021",
-      tech: "React/Node.js",
-      description: "A platform to connect pharmacy customers to their prescriptions.",
-      gitUrl: "https://github.com/ConnerOzenne/Rapid-Rx",
-      icon: <Code className="w-5 h-5 text-purple-400" />
-    },
-    {
-      id: 3,
       title: "HackSMU Website",
       date: "Spring 2022",
       tech: "Next.js",
       description: "I designed the UI for the HackSMU IV website. Built on top of HackPortal.",
       gitUrl: "https://github.com/hacksmu/hacksmu_portal",
-      icon: <Code className="w-5 h-5 text-purple-400" />
+      icon: <Code className="w-5 h-5 text-purple-400" />,
+      imgPath: "/images/hacksmuiv-robotcrew.svg"
     },
     {
-      id: 4,
+      id: 2,
       title: "Sendacard",
       date: "Spring 2022",
       tech: "Vue.js",
       description: "A tool to customize and distribute your very own Valentine's day cards.",
       gitUrl: "https://github.com/n-wes/sendacard",
-      icon: <Code className="w-5 h-5 text-purple-400" />
-    }
+      icon: <Code className="w-5 h-5 text-purple-400" />,
+      imgPath: "/images/valentines-card.png"
+    },
+    {
+      id: 3,
+      title: "Ticket to Ride Replica",
+      date: "Spring 2019",
+      tech: "Java",
+      description: "A complete and working replica of the Ticket to Ride Board Game.",
+      gitUrl: "https://github.com/mplennon617/TicketToRide",
+      icon: <Code className="w-5 h-5 text-purple-400" />,
+      imgPath: "/images/train-stock.png"
+    },
+    {
+      id: 4,
+      title: "RapidRX",
+      date: "Spring 2021",
+      tech: "React/Node.js",
+      description: "A platform to connect pharmacy customers to their prescriptions.",
+      gitUrl: "https://github.com/ConnerOzenne/Rapid-Rx",
+      icon: <Code className="w-5 h-5 text-purple-400" />,
+      imgPath: "/images/rx.png"
+    },
   ];
 
   const skills = [
@@ -101,9 +105,7 @@ function Portfolio() {
                   </div>
                   
                   {/* Project Image Placeholder */}
-                  <div className="w-32 h-24 bg-gray-100 rounded-lg flex-shrink-0">
-                    <div className="w-full h-full bg-gradient-to-br from-gray-200 to-gray-300 rounded-lg"></div>
-                  </div>
+                  <img src={project.imgPath} className='w-32 h-24 rounded-lg flex-shrink-0 object-cover'></img>
                 </div>
               </div>
             ))}
