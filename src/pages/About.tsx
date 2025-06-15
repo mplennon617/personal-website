@@ -85,7 +85,7 @@ function About() {
                         <a href="https://twitter.com/mplennon617" target="_blank"><SiX className="w-5 h-5 text-gray-800 hover:text-gray-600 transform hover:-translate-y-1 transition-transform duration-300"></SiX></a>
                         {/* <a href="https://github.com/mplennon617" target="_blank"><SiFacebook className="w-5 h-5 text-gray-800 hover:text-gray-600 transform hover:-translate-y-1 transition-transform duration-300"></SiFacebook></a> */}
                         <a href="https://www.instagram.com/mplennon617/" target="_blank"><SiInstagram className="w-5 h-5 text-gray-800 hover:text-gray-600 transform hover:-translate-y-1 transition-transform duration-300"></SiInstagram></a>
-                        <a href="mailto:mplennon617@gmail.com" target="_blank"><SiMinutemailer className="w-5 h-5 text-gray-800 hover:text-gray-600 transform hover:-translate-y-1 transition-transform duration-300"></SiMinutemailer></a>
+                        <a href="mailto:contact@mplennon.com" target="_blank"><SiMinutemailer className="w-5 h-5 text-gray-800 hover:text-gray-600 transform hover:-translate-y-1 transition-transform duration-300"></SiMinutemailer></a>
                     </div>
                     </div>
 
@@ -97,7 +97,7 @@ function About() {
                     </div>
                     <div className="flex items-center justify-center gap-2">
                         <Mail className="w-4 h-4" />
-                        <span>[Email under construction]</span>
+                        <span>contact@mplennon.com</span>
                     </div>
                     <div className="flex items-center justify-center gap-2">
                         <Globe className="w-4 h-4" />
@@ -108,7 +108,7 @@ function About() {
                     <p className="text-xl font-semibold text-center mb-4">Let's Connect!</p>
                     
                     <div className="text-center">
-                    <a href='mailto:mplennon617@gmail.com' target='_blank'>
+                    <a href='mailto:contact@mplennon.com' target='_blank'>
                         <button className="border border-gray-400 text-white px-8 py-3 rounded-full hover:bg-white hover:text-black transition-all duration-300 font-medium cursor-pointer">
                             Contact
                         </button>

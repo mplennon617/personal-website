@@ -32,7 +32,7 @@ const Navbar = () => {
                   </Link>
                 </li>
               ))}
-              <li className="pt-4"><a href='mailto:mplennon617@gmail.com' className="text-white hover:text-gray-300 transition duration-300 " target='_blank'>Contact</a></li>
+              <li className="pt-4"><a href='mailto:contact@mplennon.com' className="text-white hover:text-gray-300 transition duration-300 " target='_blank'>Contact</a></li>
             </ul>
           </div>
       </nav>
@@ -46,7 +46,7 @@ const Navbar = () => {
                 </Link>
               </li>
             ))}
-            <li><a href='mailto:mplennon617@gmail.com' className="text-white hover:text-gray-300 transition duration-300" target='_blank'>Contact</a></li>
+            <li><a href='mailto:contact@mplennon.com' className="text-white hover:text-gray-300 transition duration-300" target='_blank'>Contact</a></li>
           </ul>
         </div>
       </nav>
