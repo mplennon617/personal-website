@@ -1,5 +1,4 @@
-import React from 'react';
-import { Code, Heart } from 'lucide-react';
+import { Code } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 function Portfolio() {
