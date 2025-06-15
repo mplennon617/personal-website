@@ -9,8 +9,7 @@ const Navbar = () => {
     { label: 'About Me', path: '/about' },
     { label: 'Portfolio', path: '/portfolio' },
     { label: 'Blogs', path: '/blogs' },
-    { label: 'Designs', path: '/designs' },
-    { label: 'Contact', path: '/contact' },
+    { label: 'Designs', path: '/designs' }
   ];
 
   return (
@@ -24,6 +23,7 @@ const Navbar = () => {
               </Link>
             </li>
           ))}
+          <li><a href='mailto:mplennon617@gmail.com' className="text-white hover:text-gray-300 transition duration-300" target='_blank'>Contact</a></li>
         </ul>
       </div>
     </nav>
