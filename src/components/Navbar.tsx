@@ -5,7 +5,7 @@ import { Link, useLocation } from 'react-router-dom';
 const Navbar = () => {
   const location = useLocation();
   const currentPath = location.pathname;
-  const [showMenu, setShowMenu] = useState(true);
+  const [showMenu, setShowMenu] = useState(false);
 
   const navItems = [
     { label: 'Home', path: '/' },
