@@ -53,8 +53,8 @@ function About() {
                     <div className="flex items-start gap-4">
                     <FileText className="w-6 h-6 mt-1 text-yellow-400" />
                     <div>
-                        <p><span>I was a:</span> <span className="font-semibold">Hackathon director, organizer, and participant</span></p>
-                        <p><span>And a:</span> <span className="font-semibold">SMU Mustang Band member</span></p>
+                        <p><span>I was a:</span> <span className="font-semibold"><a href="https://hacksmu.org/" className="text-blue-300 hover:text-purple-400 transition duration-300 underline" target="_blank">Hackathon director</a>, organizer, and participant</span></p>
+                        <p><span>And an:</span> <span className="font-semibold">SMU Mustang Band member</span></p>
                         <p><span>And an:</span> <span className="font-semibold">Officer of Theta Tau (professional engineering fraternity)</span></p>
                     </div>
                     </div>
@@ -63,8 +63,8 @@ function About() {
                     <div className="flex items-start gap-4">
                     <CheckSquare className="w-6 h-6 mt-1 text-purple-400" />
                     <div>
-                        <p><span>My goals:</span> <span className="font-semibold">Spirituality, career success</span></p>
-                        <p><span>And:</span> <span className="font-semibold">being a creator, not a consumer</span></p>
+                        <p><span>My goals:</span> <span className="font-semibold">To practice intentionality in work and life</span></p>
+                        <p><span>And:</span> <span className="font-semibold">Creating over consuming</span></p>
                     </div>
                     </div>
                 </div>
@@ -138,7 +138,7 @@ function About() {
             </div>
 
             {/* Bottom Navigation */}
-            <div className="flex justify-center gap-6">
+            <div className="flex justify-center gap-6 max-sm:hidden">
                 <Link to="/portfolio" className="border border-gray-400 text-white px-8 py-3 rounded-full hover:bg-white hover:text-black transition-all duration-300 font-medium">
                 Portfolio
                 </Link>
