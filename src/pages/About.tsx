@@ -108,9 +108,11 @@ function About() {
                     <p className="text-xl font-semibold text-center mb-4">Let's Connect!</p>
                     
                     <div className="text-center">
-                    <button className="border border-gray-400 text-white px-8 py-3 rounded-full hover:bg-white hover:text-black transition-all duration-300 font-medium">
-                        Contact
-                    </button>
+                    <a href='mailto:mplennon617@gmail.com' target='_blank'>
+                        <button className="border border-gray-400 text-white px-8 py-3 rounded-full hover:bg-white hover:text-black transition-all duration-300 font-medium cursor-pointer">
+                            Contact
+                        </button>
+                    </a>
                     </div>
                 </div>
 
