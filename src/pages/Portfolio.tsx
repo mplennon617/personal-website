@@ -95,7 +95,7 @@ function Portfolio() {
                       {project.description}
                     </p>
                     
-                    <a href={project.gitUrl} target="_blank" className='className="border border-gray-400 text-white px-6 py-2 rounded-full hover:bg-white hover:text-black transition-all duration-300 font-medium mr-4 mb-2 lg:mb-0 cursor-pointer'>
+                    <a href={project.gitUrl} target="_blank" className="border border-gray-400 text-white px-6 py-2 rounded-full hover:bg-white hover:text-black transition-all duration-300 font-medium mr-4 mb-2 lg:mb-0 cursor-pointer">
                         View Code
                     </a>
                     {/* <button className="border border-gray-400 text-white px-6 py-2 rounded-full hover:bg-white hover:text-black transition-all duration-300 font-medium">
