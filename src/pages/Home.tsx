@@ -20,7 +20,7 @@ function Home() {
 
                         </div>
                         
-                        <Link to='about' className="border border-gray-400 text-white px-8 py-3 rounded-full hover:bg-white hover:text-black transition-all duration-300 font-medium">
+                        <Link to='/about' className="border border-gray-400 text-white px-8 py-3 rounded-full hover:bg-white hover:text-black transition-all duration-300 font-medium">
                         About Me
                         </Link>
                     </div>

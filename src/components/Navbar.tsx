@@ -1,10 +1,11 @@
 import { Menu, X } from 'lucide-react';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
 const Navbar = () => {
   const location = useLocation();
   const currentPath = location.pathname;
+  const [toggleMenu, setToggleMenu] = useState(false);
   const [showMenu, setShowMenu] = useState(false);
 
   const navItems = [
@@ -16,14 +17,18 @@ const Navbar = () => {
   ];
 
   const handleMenu = () => {
-    setShowMenu(!showMenu);
+    setToggleMenu(!toggleMenu);
   };
+  useEffect(() => {
+    setTimeout(() => {
+      setShowMenu(toggleMenu)
+  }, 0) }, [toggleMenu])
   
   return (
     <>
-      <nav className={`py-2 w-full sm:hidden transition-all duration-100 ${showMenu ? 'bg-slate-800/90' : ''}`}>
-        {showMenu ? <X className="text-white w-6 mx-4 my-2 h-6 cursor-pointer max-sm:block" onClick={handleMenu}/> : <Menu className="text-white w-6 mx-4 my-2 h-6 cursor-pointer max-sm:block" onClick={handleMenu}/>}
-        <div className={`mx-auto fixed px-4 w-full h-full z-10 bg-slate-800/90 ${showMenu ? ' transition-all opacity-100 duration-100' : 'opacity-0 -translate-x-1 duration-100'} max-sm:block`}>
+      <nav className={`py-2 w-full sm:hidden transition-all duration-100 ${toggleMenu ? 'bg-slate-800/90' : ''}`}>
+        {toggleMenu ? <X className="text-white w-6 mx-4 my-2 h-6 cursor-pointer max-sm:block" onClick={handleMenu}/> : <Menu className="text-white w-6 mx-4 my-2 h-6 cursor-pointer max-sm:block" onClick={handleMenu}/>}
+        {toggleMenu && (<div className={`mx-auto fixed px-4 w-full h-full z-10 bg-slate-800/90 transition-all ${showMenu ? 'opacity-100 translate-x-1' : 'opacity-0'} duration-100 max-sm:block`}>
             <ul>
               {navItems.map((item) => (
                 <li key={item.path} className="pt-4">
@@ -34,7 +39,7 @@ const Navbar = () => {
               ))}
               <li className="pt-4"><a href='mailto:contact@mplennon.com' className="text-white hover:text-gray-300 transition duration-300 " target='_blank'>Contact</a></li>
             </ul>
-          </div>
+          </div>)}
       </nav>
       <nav className="bg-transparent p-4 w-full max-sm:hidden">
         <div className="container mx-auto flex justify-end">
