@@ -40,15 +40,6 @@ function About() {
                     </div>
                     </div>
 
-                    {/* Interests */}
-                    <div className="flex items-start gap-4">
-                    <Heart className="w-6 h-6 mt-1 text-red-400" />
-                    <div>
-                        <p><span>I love:</span> <span className="font-semibold">coding, drawing, reading</span></p>
-                        <p><span>And:</span> <span className="font-semibold">pickleball, running, and gaming</span></p>
-                    </div>
-                    </div>
-
                     {/* Experience */}
                     <div className="flex items-start gap-4">
                     <FileText className="w-6 h-6 mt-1 text-yellow-400" />
@@ -56,6 +47,15 @@ function About() {
                         <p><span>I was a:</span> <span className="font-semibold"><a href="https://hacksmu.org/" className="text-blue-300 hover:text-purple-400 transition duration-300 underline" target="_blank">Hackathon director</a>, organizer, and participant</span></p>
                         <p><span>And an:</span> <span className="font-semibold">SMU Mustang Band member</span></p>
                         <p><span>And an:</span> <span className="font-semibold">Officer of Theta Tau (professional engineering fraternity)</span></p>
+                    </div>
+                    </div>
+
+                    {/* Interests */}
+                    <div className="flex items-start gap-4">
+                    <Heart className="w-6 h-6 mt-1 text-red-400" />
+                    <div>
+                        <p><span>I love:</span> <span className="font-semibold">coding, drawing, reading</span></p>
+                        <p><span>And:</span> <span className="font-semibold">pickleball, running, and gaming</span></p>
                     </div>
                     </div>
 
