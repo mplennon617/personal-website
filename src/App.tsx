@@ -6,6 +6,7 @@ import Blogs from './pages/Blogs';
 import Designs from './pages/Designs';
 import Portfolio from './pages/Portfolio';
 import Navbar from './components/Navbar';
+import Learning from './pages/Learning';
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
             <Route path="/designs" element={<Designs />} />
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/contact" element={<h2>Contact Page</h2>} />
+            <Route path="/learning" element={<Learning />} />
           </Routes>
         </main>
       </Router>
